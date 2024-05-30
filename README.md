@@ -1,5 +1,7 @@
 # Data Extraction Script
 
+![homepage](./images/homepage.png)
+
 ## Overview
 
 This script automates the process of extracting data from a website using the `lynx` browser and provides an interactive interface using `dialog`. It installs and configures `lynx`, prompts the user for a URL, extracts data from the specified website, and displays the extracted data. The script also includes features such as URL verification, progress bar during data extraction, and backup creation.
@@ -25,25 +27,37 @@ Checks if `lynx` is installed on the system. If not, it installs `lynx` using th
 
 Uses `lynx` to extract data from the specified URL and saves it to a file.
 
+![extractingdata](./images/extracting.png)
+
 #### `initial_screen()`
 
 Displays a welcome message using `dialog`.
+
+![homepage](./images/homepage.png)
 
 #### `get_url()`
 
 Prompts the user to enter the URL of the website to extract data from using `dialog`.
 
+![geturl.png](./images/geturl.png)
+
 #### `display_data()`
 
 Displays the extracted data using `dialog`.
+
+![extracteddata](./images/dataextracted.png)
 
 #### `backup()`
 
 Creates a backup of the extracted data with a timestamp and the name of the website.
 
+![backup](./images/backupimage.png)
+
 #### `main_menu()`
 
 Displays the main menu, allowing the user to choose actions such as extracting data, displaying extracted data, creating a backup, or exiting the script.
+
+![mainmenu](./images/mainmenu.png)
 
 ### Script Execution
 
