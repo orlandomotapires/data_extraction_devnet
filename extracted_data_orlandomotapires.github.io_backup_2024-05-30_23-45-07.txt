@@ -1,0 +1,126 @@
+   [1]Orlando Mota Pires ... (BUTTON)
+
+     * [2]About
+     * [3]Education
+     * [4]Experience
+     * [5]Skills
+     * [6]Publications
+     * [7]Thoughts
+
+Orlando Mota
+
+   Salvador Bahia, Brazil [8]orlandomota2002@gmail.com
+   Computer engineer student. Currently working with AI, HPC and time
+   series.
+     __________________________________________________________________
+
+Education
+
+Senai CIMATEC
+
+   Bachelor Computer Engineering
+   January 2021 - Present
+
+Colégio Cândido Portinari
+
+   High School Diploma
+   January 2014 - December 2020
+     __________________________________________________________________
+
+Experience
+
+Monitor of computational thinking and algorithms disciplines
+
+   Senai CIMATEC
+   February 2022 - December 2022
+
+Vice-President of student iniciative Programming Club
+
+   Senai CIMATEC
+   October 2021 - March 2024
+
+Cientific Iniciation
+
+   HPC Center - Senai CIMATEC
+   July 2022 - December 2023
+
+Cientific Iniciation
+
+   Modeling time series extracted from brain activity with Python - Senai
+   CIMATEC
+   March 2024 - Currently
+
+Intern Student
+
+   Intern Student at LAQCC (Latino America Quantum Computing Center) -
+   Senai CIMATEC
+   March 2024 - Currently
+     __________________________________________________________________
+
+Skills
+
+   Programming Languages & Tools
+     *
+     *
+     *
+     *
+     *
+     *
+     __________________________________________________________________
+
+Publications
+
+Tuning a CPU-Computation in a DPC++Based Stencil Computation in a DPC++
+Multi-Device Environment.
+
+   CONCEIÇÃO, T.; RODRIGUES, A.H, PIRES, O., SOARES, L.
+   Journal of Bioengineering, Technologies and Health, v. 10, p. 1-13,
+   2018
+
+[9]PAPER/Artigo
+
+OneAPI: an Approach for Developer-Centered HeterogeneousComputing.
+
+   CONCEIÇÃO, T.; RODRIGUES,A.H, PIRES, O., SOARES, L.
+   WSCAD22,v.10, p. 1-13, 2018.
+
+Statistical Study of Eco-Efficiency in Compact and Average Cars (Chevrolet,
+Ford, VW, Fiat, Renault) in Brazil Based on the Metro Table in 2019
+
+   WENCESLAU, A; WIDMER, A; DUNKEL, G; SAMUEL, J; PIRES, O; NASCIMENTO,
+   Aloisio.
+   Journal of Bioengineering, Technologies and Health, p. 1-7, 2019.
+     __________________________________________________________________
+
+Thoughts
+
+   A young person passionate about computing, physics and understanding
+   the mysteries of the universe.
+
+   One of the greatest minds to ever walk the Earth, Isaac Newton, once
+   said: "If I have seen further, it is by standing on the shoulders of
+   giants", and is with that philosophy that I harbor the aspiration that
+   one day I'll be able to contribute my own 'brick' to the monumental
+   'wall of knowledge' that humanity has been building since ancient
+   times.
+     __________________________________________________________________
+
+References
+
+   Visible links:
+   1. https://orlandomotapires.github.io/#page-top
+   2. https://orlandomotapires.github.io/#about
+   3. https://orlandomotapires.github.io/#education
+   4. https://orlandomotapires.github.io/#experience
+   5. https://orlandomotapires.github.io/#skills
+   6. https://orlandomotapires.github.io/#publications
+   7. https://orlandomotapires.github.io/#interests
+   8. mailto:orlandomota2002@gmail.com
+   9. http://www.jbth.com.br/index.php/JBTH/article/view/269
+
+   Hidden links:
+  11. https://orlandomotapires.github.io/assets/pdf/CV-OrlandoMota.pdf
+  12. https://www.linkedin.com/in/orlando-mota-0360a5209/
+  13. https://lattes.cnpq.br/3947473564013190
+  14. https://github.com/orlandomotapires
+  15. https://beacons.ai/orlandomotapires

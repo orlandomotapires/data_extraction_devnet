@@ -1,10 +1,10 @@
 # Data Extraction Script
 
-![homepage](./images/homepage.png)
+![mainmenu](./images/mainmenu.png)
 
 ## Overview
 
-This script automates the process of extracting data from a website using the `lynx` browser and provides an interactive interface using `dialog`. It installs and configures `lynx`, prompts the user for a URL, extracts data from the specified website, and displays the extracted data. The script also includes features such as URL verification, progress bar during data extraction, and backup creation.
+This script automates the process of extracting data from a website using the `lynx` browser and provides an interactive interface using `dialog`. It installs and configures `lynx`, prompts the user for a URL, extracts data from the specified website, and displays the extracted data. The script also includes features such as URL verification, progress bar during data extraction, filtering of the extracted data, and backup creation.
 
 ## What is Lynx?
 
@@ -16,6 +16,7 @@ Lynx is a highly configurable text-based web browser for use on cursor-addressab
 
 - `SITE_URL`: Default URL of the website to extract data from.
 - `EXTRACTED_DATA`: Filename to save the extracted data.
+- `epochs`: Number of iterations for the progress bar during data extraction.
 
 ### Functions
 
@@ -23,23 +24,29 @@ Lynx is a highly configurable text-based web browser for use on cursor-addressab
 
 Checks if `lynx` is installed on the system. If not, it installs `lynx` using the package manager.
 
-#### `extract_data()`
-
-Uses `lynx` to extract data from the specified URL and saves it to a file.
-
-![extractingdata](./images/extracting.png)
-
 #### `initial_screen()`
 
 Displays a welcome message using `dialog`.
 
 ![homepage](./images/homepage.png)
 
+#### `main_menu()`
+
+Displays the main menu, allowing the user to choose actions such as extracting data, displaying extracted data, creating a backup, or filtering data.
+
+![mainmenu](./images/mainmenu.png)
+
 #### `get_url()`
 
 Prompts the user to enter the URL of the website to extract data from using `dialog`.
 
 ![geturl.png](./images/geturl.png)
+
+#### `extract_data()`
+
+Uses `lynx` to extract data from the specified URL and saves it to a file, displaying a progress bar during the extraction process.
+
+![extractingdata](./images/extracting.png)
 
 #### `display_data()`
 
@@ -53,11 +60,11 @@ Creates a backup of the extracted data with a timestamp and the name of the webs
 
 ![backup](./images/backupimage.png)
 
-#### `main_menu()`
+#### `filter_data()`
 
-Displays the main menu, allowing the user to choose actions such as extracting data, displaying extracted data, creating a backup, or exiting the script.
+Filters and transforms the extracted data, saving the filtered data to a new file. It extracts specific patterns from the data, such as text preceded by numbers within square brackets. Additionally, it extracts and appends any URLs found in the extracted data to the filtered data file.
 
-![mainmenu](./images/mainmenu.png)
+![filterdata](./images/filterdata.png)
 
 ### Script Execution
 
@@ -68,4 +75,4 @@ Displays the main menu, allowing the user to choose actions such as extracting d
 
 ## Conclusion
 
-This script simplifies the process of extracting data from a website using `lynx` and provides a user-friendly interface with `dialog`. It ensures that necessary tools are installed, allows users to specify the target website, and displays the extracted data in an organized manner. This script can be further expanded and customized to meet specific data extraction needs.
+This script simplifies the process of extracting data from a website using `lynx` and provides a user-friendly interface with `dialog`. It ensures that necessary tools are installed, allows users to specify the target website, and displays the extracted data in an organized manner. With the new filtering feature, users can extract specific patterns from the data and also extract any URLs referenced in the data. This script can be further expanded and customized to meet specific data extraction needs.
