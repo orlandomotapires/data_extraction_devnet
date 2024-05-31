@@ -16,7 +16,6 @@ Lynx is a highly configurable text-based web browser for use on cursor-addressab
 
 - `SITE_URL`: Default URL of the website to extract data from.
 - `EXTRACTED_DATA`: Filename to save the extracted data.
-- `epochs`: Number of iterations for the progress bar during data extraction.
 
 ### Functions
 
